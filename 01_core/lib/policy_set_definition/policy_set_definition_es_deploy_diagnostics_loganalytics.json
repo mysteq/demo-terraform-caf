@@ -1,5 +1,5 @@
 {
-  "name": "Deploy-Diagnostics-LogAnalytics-42",
+  "name": "Deploy-Diagnostics-LogAnalytics",
   "type": "Microsoft.Authorization/policySetDefinitions",
   "apiVersion": "2021-06-01",
   "scope": null,
@@ -862,6 +862,9 @@
           },
           "profileName": {
             "value": "[parameters('profileName')]"
+          },
+          "metricsEnabled": {
+            "value": "[parameters('metricsEnabled')]"
           }
         },
         "groupNames": []
@@ -897,6 +900,9 @@
           },
           "profileName": {
             "value": "[parameters('profileName')]"
+          },
+          "metricsEnabled": {
+            "value": "[parameters('metricsEnabled')]"
           }
         },
         "groupNames": []
@@ -913,6 +919,9 @@
           },
           "profileName": {
             "value": "[parameters('profileName')]"
+          },
+          "metricsEnabled": {
+            "value": "[parameters('metricsEnabled')]"
           }
         },
         "groupNames": []
@@ -929,6 +938,9 @@
           },
           "profileName": {
             "value": "[parameters('profileName')]"
+          },
+          "metricsEnabled": {
+            "value": "[parameters('metricsEnabled')]"
           }
         },
         "groupNames": []
