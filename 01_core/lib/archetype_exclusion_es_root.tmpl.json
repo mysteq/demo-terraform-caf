@@ -1,0 +1,16 @@
+{
+  "exclude_es_root": {
+    "policy_assignments": [
+      "Deploy-Resource-Diag"
+    ],
+    "policy_definitions": [],
+    "policy_set_definitions": [
+      "Deploy-Diagnostics-LogAnalytics"
+    ],
+    "role_definitions": [],
+    "archetype_config": {
+      "parameters": {},
+      "access_control": {}
+    }
+  }
+}
